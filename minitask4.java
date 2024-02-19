@@ -45,10 +45,9 @@ public class minitask4 {
                 break;
 
                 Random num = new Random();
-                int ranNum = 1000000;
+                int ranNum = random.nextInt(999999) + 1;;
 
-            System.out.println(String.format("%02d %02d %02d", yy, mm, dd) + " - " + gender +  num.nextInt(ranNum)
-            );
+            System.out.println(String.format("%02d %02d %02d", yy, mm, dd) + " - " + gender +  ranNum);
             }
     }
 }
